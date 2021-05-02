@@ -12,19 +12,23 @@ pip3 install scikit-learn scikit-image
 echo 'export LD_PRELOAD=$LD_PRELOAD:/home/student/.local/lib/python3.6/site-packages/scikit_learn.libs/libgomp-d22c30c5.so.1.0.0' >> /home/student/.bashrc
 
 # Dependency for Pytorch
-# Notice that instructions call for installing numpy but we already have that updated 
+# Notice that instructions call for installing numpy but we already have that updated
 #   from Tensorflow install.
 pip3 install Cython
 
 # Install Pytorch
 pip3 install torch-1.8.0-cp36-cp36m-linux_aarch64.whl
 
-# Environment variable for Torchvision setup. 
+# Environment variable for Torchvision setup.
 export BUILD_VERSION=0.x.0
 
 # Build torchvision from source (Ugh. Takes a while.). Notice install as user.
-python3 ~/Downloads/torchvision/setup.py install --user
+cd ~/Downloads/torchvision
+python3 setup.py install --user
+cd
+
+mv ~/tensorflow-2.4.0+nv21.4-cp36-cp36m-linux_aarch64.whl ~/Downloads
+mv ~/torch-1.8.0-cp36-cp36m-linux_aarch64.whl ~/Downloads
 
 # Install Dynamixel SDK
 pip3 install dynamixel-sdk
-
