@@ -2,6 +2,8 @@
 
 There are three scripts to run in sequence, first and third as user and second as root.  
 
+Many thanks to [Jetson Hacks](https://github.com/jetsonhacks/)
+
 **Before starting**, I did all of the following:
 * Download JetPack 4.5 from [Nvidia Developer](https://developer.nvidia.com/embedded/downloads)
 * Copy the disk image onto a Micro SD card.
@@ -36,3 +38,4 @@ And, as user:
 
 Notice that Open CV 4.1.1 is pre-installed as root, with CUDA support in JetPack 4.5.
 
+Once all this done, you should run the two scripts in ~/rootOnNVMe 
