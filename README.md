@@ -35,6 +35,9 @@ And, as user:
 * Scikit-learn 0.24.2
 * Scikit-image 0.17.2
 * Dynamixel SDK 3.7.31
+* Matplotlib 3.3.4
+* Scipy 1.5.4
+* Pillow (PIL) 8.2.0
 
 Notice that Open CV 4.1.1 is pre-installed as root, with CUDA support in JetPack 4.5.
 
