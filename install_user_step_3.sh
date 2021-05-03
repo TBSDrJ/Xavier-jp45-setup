@@ -20,7 +20,7 @@ pip3 install Cython
 pip3 install torch-1.8.0-cp36-cp36m-linux_aarch64.whl
 
 # Environment variable for Torchvision setup.
-export BUILD_VERSION=0.x.0
+export BUILD_VERSION=0.9.0
 
 # Build torchvision from source (Ugh. Takes a while.). Notice install as user.
 cd ~/Downloads/torchvision
