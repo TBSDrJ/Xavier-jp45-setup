@@ -11,7 +11,7 @@ Many thanks to [Jetson Hacks](https://github.com/jetsonhacks/)
 * Re-boot, hit 'Next' through the gnome-initial-setup
 * Remove the three LibreOffice icons from Launcher
 * Add Software Updater, Software & Updates, Chromium, Terminal, and gedit to the Lanucher
-* Open Settings > Brightness & Lock > then: 
+* Open Settings > Brightness & Lock > then:
   * Set to never sleep
   * Never require password
   * Lock off
@@ -20,7 +20,7 @@ Many thanks to [Jetson Hacks](https://github.com/jetsonhacks/)
 Then, run:
 1. install_user_step_1.sh (as user).  This is pretty quick, depends on your network speed.
 2. install_sudo_step_2.sh (as root, so with sudo) This takes about 22 minutes.
-3. install_user_step_3.sh (as user).  This is also 20+ minutes.
+3. install_user_step_3.sh (as user).  This is 40+ minutes.
 
 Then, you can run the two scripts in ~/Downloads/rootOnNVMe to push the filesystem out to the NVMe drive.
 
@@ -41,4 +41,4 @@ And, as user:
 
 Notice that Open CV 4.1.1 is pre-installed as root, with CUDA support in JetPack 4.5.
 
-Once all this done, you should run the two scripts in ~/rootOnNVMe 
+Once all this done, you should run the two scripts in ~/rootOnNVMe

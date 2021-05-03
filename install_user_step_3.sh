@@ -25,7 +25,7 @@ export BUILD_VERSION=0.9.0
 # Build torchvision from source (Ugh. Takes a while.). Notice install as user.
 cd ~/Downloads/torchvision
 python3 setup.py install --user
-cd
+cd ~/
 
 mv ~/tensorflow-2.4.0+nv21.4-cp36-cp36m-linux_aarch64.whl ~/Downloads
 mv ~/torch-1.8.0-cp36-cp36m-linux_aarch64.whl ~/Downloads
