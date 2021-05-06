@@ -28,7 +28,7 @@ Then, you can run the two scripts in ~/Downloads/rootOnNVMe to push the filesyst
 This installs, as root:
 * Pip 21.1 for Python 3.6
 * Tensorflow 2.4
-* Intel RealSense SDK 2.44
+* Intel RealSense SDK 2.41
 * A udev rule that identifies the Dynamixel controller U2D2 and sets it as readable/writeable by the user
 
 And, as user:
