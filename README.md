@@ -16,7 +16,7 @@ Many thanks to [Jetson Hacks](https://github.com/jetsonhacks/)
   * Never require password
   * Lock off
 * Run Software Updater, install all updates. (~20 minutes)
-* You will need to move these shell scripts to the user's home directory, and then use chmod 744 install* to make them exectuable.
+* You will need to move these shell scripts to the user's home directory, and then use `chmod 744 install*` to make them exectuable.
 
 Then, run:
 1. install_user_step_1.sh (as user).  This is pretty quick, depends on your network speed.
