@@ -8,10 +8,10 @@ wget https://developer.download.nvidia.com/compute/redist/jp/v45/tensorflow/tens
 # Download Pytorch wheel
 wget https://nvidia.box.com/shared/static/fjtbno0vpo676a25cgvuqc1wty0fkkg6.whl -O torch-1.10.0-cp36-cp36m-linux_aarch64.whl
 
-# Above is completed, working on below
-
 # Download RealSenseSDK loader script
 git clone https://github.com/jetsonhacks/installrealsensesdk ~/Downloads/installRealSenseSDK
+
+# Above is completed, working on below
 
 # Download script to transfer file system to NVMe drive
 git clone https://github.com/jetsonhacks/rootonnvme ~/Downloads/rootOnNVMe
