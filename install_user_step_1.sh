@@ -11,10 +11,10 @@ wget https://nvidia.box.com/shared/static/fjtbno0vpo676a25cgvuqc1wty0fkkg6.whl -
 # Download RealSenseSDK loader script
 git clone https://github.com/jetsonhacks/installrealsensesdk ~/Downloads/installRealSenseSDK
 
-# Above is completed, working on below
-
 # Download script to transfer file system to NVMe drive
 git clone https://github.com/jetsonhacks/rootonnvme ~/Downloads/rootOnNVMe
+
+# Above is completed, working on below
 
 # Download torchvision repository
 # From: https://forums.developer.nvidia.com/t/pytorch-for-jetson-version-1-8-0-now-available/72048
