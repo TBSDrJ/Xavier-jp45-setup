@@ -1,9 +1,11 @@
 ##### STEP 1, RUN THIS AS USER
-# Assumes JetPack 4.5
-# JP 4.5 includes a full OpenCV build including CUDA support.
+# Assumes JetPack 4.6
+# JP 4.6 includes a full OpenCV build including CUDA support.
 
 # Download Tensorflow wheel
-wget https://developer.download.nvidia.com/compute/redist/jp/v45/tensorflow/tensorflow-2.4.0+nv21.4-cp36-cp36m-linux_aarch64.whl
+wget https://developer.download.nvidia.com/compute/redist/jp/v45/tensorflow/tensorflow-2.5.0+nv21.6-cp36-cp36m-linux_aarch64.whl
+
+# Above is completed, working on below
 
 # Download Pytorch wheel
 wget https://nvidia.box.com/shared/static/p57jwntv436lfrd78inwl7iml6p13fzh.whl -O torch-1.8.0-cp36-cp36m-linux_aarch64.whl
