@@ -4,6 +4,8 @@ There are three scripts to run in sequence, first and third as user and second a
 
 Many thanks to [Jetson Hacks](https://github.com/jetsonhacks/)
 
+# 3/17/22 Modifying this for Jetpack 4.6
+
 **Before starting**, I did all of the following:
 * Download JetPack 4.5 from [Nvidia Developer](https://developer.nvidia.com/embedded/downloads)
 * Copy the disk image onto a Micro SD card.
