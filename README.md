@@ -5,9 +5,10 @@ There are three scripts to run in sequence, first and third as user and second a
 Many thanks to [Jetson Hacks](https://github.com/jetsonhacks/)
 
 # 3/17/22 Modifying this for Jetpack 4.6
+* Completed script 1, 2022-03-21
 
 **Before starting**, I did all of the following:
-* Download JetPack 4.5 from [Nvidia Developer](https://developer.nvidia.com/embedded/downloads)
+* Download JetPack 4.6 from [Nvidia Developer](https://developer.nvidia.com/embedded/downloads)
 * Copy the disk image onto a Micro SD card.
 * Boot, accept license, do the basic Ubuntu setup.  I chose to auto-login and to push power usage to 15W_6CORE.
 * Re-boot, hit 'Next' through the gnome-initial-setup
@@ -29,13 +30,13 @@ Then, you can run the two scripts in ~/Downloads/rootOnNVMe to push the filesyst
 
 This installs, as root:
 * Pip 21.1 for Python 3.6
-* Tensorflow 2.4
+* Tensorflow 2.5
 * Intel RealSense SDK 2.41
 * A udev rule that identifies the Dynamixel controller U2D2 and sets it as readable/writeable by the user
 
 And, as user:
-* Pytorch 1.8.0
-* Torchvision 0.9.0
+* Pytorch 1.10.0
+* Torchvision 0.11.0
 * Scikit-learn 0.24.2
 * Scikit-image 0.17.2
 * Dynamixel SDK 3.7.31
