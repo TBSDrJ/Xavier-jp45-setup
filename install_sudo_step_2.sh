@@ -29,12 +29,11 @@ pip3 install testresources setuptools==49.6.0
 pip3 install -U numpy==1.19.4 future==0.18.2 mock==3.0.5 keras_preprocessing==1.1.2 keras_applications==1.0.8 gast==0.4.0 protobuf pybind11 cython pkgconfig
 env H5PY_SETUP_REQUIRES=0 pip3 install -U h5py==3.1.0
 
-# 2022-03-21 Completed draft upgrade to JP 4.6 up to here.
-
 # Install Tensorflow itself
 # Downloaded from https://developer.nvidia.com/embedded/downloads
-pip3 install tensorflow-2.4.0+nv21.4-cp36-cp36m-linux_aarch64.whl
+pip3 install tensorflow-2.5.0+nv21.8-cp36-cp36m-linux_aarch64.whl
 
+# 2022-03-21 Will need to check on this:
 # Notice that there is a line added to .bashrc that was needed by tensorflow to get
 #    GPU acceleration fully functioning, see install_user_step_3.sh
 #
@@ -49,10 +48,10 @@ pip3 install tensorflow-2.4.0+nv21.4-cp36-cp36m-linux_aarch64.whl
 # PYTORCH AND TORCHVISION
 #
 # This section follows:
-# https://forums.developer.nvidia.com/t/pytorch-for-jetson-version-1-8-0-now-available/72048
+# https://forums.developer.nvidia.com/t/pytorch-for-jetson-version-1-10-now-available/72048
 
 # Some dependencies for Pytorch.  
-# Notice that we skip python3-pip because we already did that above.
+# Notice that we skip what we've already done for Tensorflow above.
 apt-get -y install libopenblas-base libopenmpi-dev 
 
 # Some dependencies for Torchvision.
