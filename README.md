@@ -18,7 +18,9 @@ Many thanks to [Jetson Hacks](https://github.com/jetsonhacks/)
   * Set to never sleep
   * Never require password
   * Lock off
-* Run Software Updater, install all updates. (~20 minutes)
+* Restart after all that.
+* Run Software Updater, install all updates. (~12 minutes)
+* Clone this repository
 * You will need to move these shell scripts to the user's home directory, and then use `chmod 744 install*` to make them exectuable.
 
 Then, run:
