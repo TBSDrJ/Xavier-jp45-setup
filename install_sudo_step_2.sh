@@ -26,14 +26,17 @@ pip3 install -U pip
 # Tensorflow dependencies 
 apt-get -y install libhdf5-serial-dev hdf5-tools libhdf5-dev zlib1g-dev zip libjpeg8-dev liblapack-dev libblas-dev gfortran
 pip3 install testresources setuptools==49.6.0
-pip3 install -U numpy==1.19.4 future==0.18.2 mock==3.0.5 h5py==2.10.0 keras_preprocessing==1.1.1 keras_applications==1.0.8 gast==0.2.2 futures protobuf pybind11
+pip3 install -U numpy==1.19.4 future==0.18.2 mock==3.0.5 keras_preprocessing==1.1.2 keras_applications==1.0.8 gast==0.4.0 protobuf pybind11 cython pkgconfig
+env H5PY_SETUP_REQUIRES=0 pip3 install -U h5py==3.1.0
+
+# 2022-03-21 Completed draft upgrade to JP 4.6 up to here.
 
 # Install Tensorflow itself
 # Downloaded from https://developer.nvidia.com/embedded/downloads
 pip3 install tensorflow-2.4.0+nv21.4-cp36-cp36m-linux_aarch64.whl
 
 # Notice that there is a line added to .bashrc that was needed by tensorflow to get
-#    GPU acceleration fully functioning, see install_user.sh
+#    GPU acceleration fully functioning, see install_user_step_3.sh
 #
 # End of Tensorflow section
 #############################
