@@ -14,8 +14,6 @@ git clone https://github.com/jetsonhacks/installrealsensesdk ~/Downloads/install
 # Download script to transfer file system to NVMe drive
 git clone https://github.com/jetsonhacks/rootonnvme ~/Downloads/rootOnNVMe
 
-# Above is completed, working on below
-
 # Download torchvision repository
-# From: https://forums.developer.nvidia.com/t/pytorch-for-jetson-version-1-8-0-now-available/72048
-git clone --branch v0.9.0 https://github.com/pytorch/vision ~/Downloads/torchvision
+# Seems that torchvision is generally 1 major version behind and 1 minor version ahead of pytorch
+git clone --branch v0.11.0 https://github.com/pytorch/vision ~/Downloads/torchvision
