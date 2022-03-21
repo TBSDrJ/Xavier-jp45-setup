@@ -5,12 +5,12 @@ There are three scripts to run in sequence, first and third as user and second a
 Many thanks to [Jetson Hacks](https://github.com/jetsonhacks/)
 
 # 3/17/22 Modifying this for Jetpack 4.6
-* Completed script 1, 2022-03-21
+* Completed draft, 2022-03-21, started testing
 
 **Before starting**, I did all of the following:
 * Download JetPack 4.6 from [Nvidia Developer](https://developer.nvidia.com/embedded/downloads)
 * Copy the disk image onto a Micro SD card.
-* Boot, accept license, do the basic Ubuntu setup.  I chose to auto-login and to push power usage to 15W_6CORE.
+* Boot, accept license, do the basic Ubuntu setup.  I chose to auto-login and to push power usage to 20W_6CORE.
 * Re-boot, hit 'Next' through the gnome-initial-setup
 * Remove the three LibreOffice icons from Launcher
 * Add Software Updater, Software & Updates, Chromium, Terminal, and gedit to the Lanucher
