@@ -3,7 +3,7 @@
 # JP 4.6 includes a full OpenCV build including CUDA support.
 
 # Download Tensorflow wheel
-wget https://developer.download.nvidia.com/compute/redist/jp/v45/tensorflow/tensorflow-2.5.0+nv21.6-cp36-cp36m-linux_aarch64.whl
+wget https://developer.download.nvidia.cn/compute/redist/jp/v46/tensorflow/tensorflow-2.5.0+nv21.8-cp36-cp36m-linux_aarch64.whl
 
 # Download Pytorch wheel
 wget https://nvidia.box.com/shared/static/fjtbno0vpo676a25cgvuqc1wty0fkkg6.whl -O torch-1.10.0-cp36-cp36m-linux_aarch64.whl
