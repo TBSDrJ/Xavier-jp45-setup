@@ -19,7 +19,8 @@ Many thanks to [Jetson Hacks](https://github.com/jetsonhacks/)
   * Never require password
   * Lock off
 * Restart after all that.
-* Run Software Updater, install all updates. (~12 minutes)
+* Run Software Updater, install all updates. (~12 minutes) _Note_: As part of this update, it will have a dialog box to confirm that you want to start Docker as part of the bootup, check the box to agree to start Docker, and hit 'Next.'
+* Restart again.
 * Clone this repository
 * You will need to move these shell scripts to the user's home directory, and then use `chmod 744 install*` to make them exectuable.
 
