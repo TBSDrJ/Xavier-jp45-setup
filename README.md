@@ -4,8 +4,7 @@ There are three scripts to run in sequence, first and third as user and second a
 
 Many thanks to [Jetson Hacks](https://github.com/jetsonhacks/)
 
-# 3/17/22 Modifying this for Jetpack 4.6
-* Completed draft, 2022-03-21, started testing
+# 2022-03-21 Modified this for Jetpack 4.6 (Note: NOT for 4.6.1)
 
 **Before starting**, I did all of the following:
 * Download JetPack 4.6 from [Nvidia Developer](https://developer.nvidia.com/embedded/downloads)
@@ -32,9 +31,9 @@ Then, run:
 Then, you can run the two scripts in ~/Downloads/rootOnNVMe to push the filesystem out to the NVMe drive.
 
 This installs, as root:
-* Pip 21.1 for Python 3.6
+* Pip 21.3 for Python 3.6.9
 * Tensorflow 2.5
-* Intel RealSense SDK 2.41
+* Intel RealSense SDK 2.50
 * A udev rule that identifies the Dynamixel controller U2D2 and sets it as readable/writeable by the user
 
 And, as user:
@@ -45,8 +44,8 @@ And, as user:
 * Dynamixel SDK 3.7.31
 * Matplotlib 3.3.4
 * Scipy 1.5.4
-* Pillow (PIL) 8.2.0
+* Pillow (PIL) 8.4.0
 
-Notice that Open CV 4.1.1 is pre-installed as root, with CUDA support in JetPack 4.5.
+Notice that Open CV 4.1.1 is pre-installed as root, with CUDA support in JetPack 4.6.
 
 Once all this done, you should run the two scripts in ~/rootOnNVMe
